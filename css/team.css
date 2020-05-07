@@ -1,0 +1,68 @@
+.team1{
+    margin-left: 35%;
+}
+
+.card-deck{
+    margin-top: 2%;
+}
+
+.card {
+ 
+    text-align: center;
+    width: 19rem;
+    padding: 0px;
+    margin: 0 ;
+    margin-top: 0px;
+    
+    background: transparent !important;
+}
+.card-body{
+   border:none;
+
+}
+
+.card img {
+  object-fit: contain !important;
+width: 20rem;
+   height: 18rem;
+
+}
+.card-img-top{
+
+    height: 18rem !important;
+    width: 16rem;
+}
+
+.card-text {
+    color: #ffffff;
+    font-size: 22px;
+   
+    
+
+}
+
+
+@media only screen and (max-width:768px) {
+.container{
+    width: 100% !important;
+}
+    .active a{
+        color: #ffffff;
+    }
+.team1{
+    margin-left: 0% !important;
+}
+.card{
+    width: 100% !important
+}
+    
+    #Heading {
+        font-size: 40px;
+        padding: 6px;
+    }
+
+    .card-body{
+        margin-top:10px !important;
+    }
+    
+}

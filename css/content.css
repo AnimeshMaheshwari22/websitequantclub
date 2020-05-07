@@ -1,0 +1,33 @@
+#container1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: black;
+    letter-spacing: 2px;
+}
+
+
+
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: transparent; 
+	}
+}
+@media only screen and (max-width:786px)
+{
+	.left{
+	
+		margin-left: 25% !important;
+	}
+	#text{
+		margin-left: 25% !important;
+	}
+}

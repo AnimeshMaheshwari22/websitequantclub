@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+.comp-info{
+    background-color: transparent;
+    
+}
+label{
+    color: #000000 !important;
+}
+select{
+    width: 100%; /* Full width */
+  padding: 7.5px; /* Some padding */  
+  border: 1px solid #000000; /* Gray border */
+  
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  
+ /* Bottom margin */
+  resize: vertical
+}
+.logo mr-auto img{
+    padding-left:15%;
+}
+.container1{
+    border-radius: 5px !important;
+    max-width: 800px;
+    padding-left: 0 !important;
+        padding-right: 0 !important;
+   border-radius:7px;
+    padding:1em; 
+    margin-right: 15px;
+    margin-left: 15px; 
+   
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper > *{
+    padding: 1em;
+}
+.comp-info{
+    background-color: #ffffff;
+    
+}
+.contact{
+    background: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 10px; 
+    box-shadow: #000000 7px;
+}
+.contact form{
+     
+    display: grid;
+  
+    grid-column-gap: 2em;
+    grid-row-gap: 5px;
+    
+}
+.contact form label{
+    display:block;
+    border: 5px;
+}
+ input{
+    display:inline-block;
+     border:  0.5px solid;
+    
+     background: white;
+}
+textarea{
+    border: 0.5px solid ;
+    
+    background: white;
+}
+.contact form p{
+    margin:0;
+}
+.contact form .full{
+    grid-column: 1/1;
+}
+.contact form input, .contact form textarea{
+    width:100%;
+    padding:0.3em;
+    
+}
+.contact form button{
+    width:80%;
+    border: 0px !important;
+    margin-left:10%;
+}
+.contact button{
+    background: #007acc;
+    
+}
+.contact form button:hover, .contact form:focus{
+    background: #4da6ff;
+    outline:0;
+ 
+    cursor:pointer
+}
+.alert{
+    text-align: center;
+    padding:10px;
+    background: #007acc;
+    color:#000;
+    margin-bottom: 10px;
+    display:none;
+    position: fixed;
+}
+
+@media only screen and (min-width:700px)
+{
+  
+    .alert{
+        position:fixed;
+    }
+    .wrapper{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .wrapper > *{
+        padding:20px;
+    }
+     .contact form input, .contact form textarea{
+    width:100% !important;
+    padding:0.3em;
+}
+.contact form button{
+width:30%;
+margin-left: 35%;
+background: #064D9B;
+
+}
+    input{
+        display: inline-block;
+    }
+    .contact form .full{
+    grid-column: 1/3;
+}
+    .container1{
+        margin-left: 20% !important;
+        margin-right: auto !important;
+ 
+    }
+}
