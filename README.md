@@ -23,8 +23,8 @@ https://developers.google.com/speed/libraries
 
 Home: A simple welcome page for your website with an image cards structure.<br/>
 Contact us: A contact from built for students to contact the club following this tutorial: https://youtu.be/PP4Tr0l08NE <br/>
-&nbsp;&nbsp;&nbsp;&nbspCredits: https://github.com/bradtraversy/firebasecontact <br/>
-&nbsp;&nbsp;&nbsp;&nbspYou can initialize it with your own Firebase credentials<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Credits: https://github.com/bradtraversy/firebasecontact <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can initialize it with your own Firebase credentials<br/>
 Join us: You can attach a form here in an iframe for people interested in joining your club/organization to contact you. 
             
   
